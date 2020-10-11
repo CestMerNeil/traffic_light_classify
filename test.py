@@ -9,8 +9,6 @@ import random
 
 tf.compat.v1.disable_eager_execution()
 
-
-
 def test():
     x_test, y_test, raw_names = images.read_traffic_light(False)
     idxs = [random.randint(0, x_test.shape[0] - 1) for _ in range(200)]
