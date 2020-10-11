@@ -15,7 +15,7 @@ def read_image(path):
 
 
 def read_traffic_light(training=True):
-    traffic_light_dir = "traffic_light_images/"
+    traffic_light_dir = "D:/Python/Code_Warehouse/traffic_light_classify/traffic_light_images/"
 
     if training:
         red = traffic_light_dir + "training/red/"
